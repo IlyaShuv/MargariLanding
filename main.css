@@ -1,4 +1,58 @@
+body{
+	font-family: Roboto, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	box-sizing: border-box;
+}
+
 header {
 	background-color: #F2F2F2;
 	height: 600px;
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 40px;
+}
+
+.menu li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+nav {
+	float: left;
+	margin-top: 30px;
+}
+
+.zapis {
+	float: right;
+	margin-top: 30px;
+}
+
+.zapis a {
+	color: #000;
+	text-decoration: none;
+	font-size: 28px;
+}
+
+.photo {
+	height: 450px;
+	padding-top: 30px;
 }
