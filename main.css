@@ -31,9 +31,9 @@ header {
 }
 
 .menu li a {
-	color: #000;
+	color: #900;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 nav {
@@ -42,8 +42,13 @@ nav {
 }
 
 .zapis {
-	float: right;
-	margin-top: 30px;
+	margin-top: 40px;
+	margin-left: 150px;
+	width: 250px;
+	text-align: center;
+	padding: 4px;
+	border: medium solid #390;
+	border-radius: 25px;
 }
 
 .zapis a {
@@ -55,4 +60,21 @@ nav {
 .photo {
 	height: 450px;
 	padding-top: 30px;
+	display: block;
+	float: left;
+}
+
+.mainTitle {
+	margin-top: 50px;
+	margin-left: 40px;
+	float: right;
+}
+
+.mainHead {
+	float: left;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1.5;
 }
