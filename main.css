@@ -33,7 +33,7 @@ header {
 .menu li a {
 	color: #900;
 	text-decoration: none;
-	font-size: 26px;
+	font-size: 28px;
 }
 
 nav {
@@ -49,9 +49,7 @@ nav {
 	padding: 4px;
 	border: medium solid #390;
 	border-radius: 25px;
-}
-
-.zapis a {
+	display: block;
 	color: #000;
 	text-decoration: none;
 	font-size: 28px;
@@ -77,4 +75,17 @@ nav {
 h1 {
 	font-size: 40px;
 	line-height: 1.5;
+}
+
+.title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.title h2 {
+
+}
+
+.title p {
+
 }
