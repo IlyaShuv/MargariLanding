@@ -48,12 +48,9 @@ nav {
 	margin-top: 30px;
 }
 
-.zapis {
-	margin-top: 40px;
-	margin-left: 150px;
+.zapis{
 	width: 250px;
 	text-align: center;
-	padding: 4px;
 	border: medium solid #390;
 	border-radius: 25px;
 	display: block;
@@ -75,6 +72,12 @@ nav {
 	float: right;
 }
 
+.mainTitle a {
+	margin-top: 40px;
+	margin-left: 150px;
+	padding: 4px;
+}
+
 .mainHead {
 	float: left;
 }
@@ -89,7 +92,7 @@ h1 {
 
 #about {
 	font-weight: 100;
-	line-height: 1.6;
+	line-height: 1.7;
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
@@ -100,10 +103,63 @@ h1 {
 	font-style: normal;
 }
 
-#about p {
+#about_main p {
+	margin-top: 40px;
 	text-align: center;
 	font-size: 22px;
 }
+
+.regal li {
+	display: block;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.regal li img {
+	height: 35px;
+	float: left;
+	padding-right: 20px;
+}
+
+.regal li p {
+	text-align: left;
+	font-size: 22px;
+}
+
+.regal li p span {
+	margin-left: 56px; 
+}
+
+
+
+
+
+#types {
+	height: 450px;
+	background: #F2F2F2;
+	padding-top: 20px;
+}
+
+.items {
+	margin-top: 65px;
+}
+
+.items li {
+	display: block;
+	margin-left: 40px;
+}
+
+.items li img {
+	height: 28px;
+	float: left;
+	padding-right: 20px;
+}
+
+.items li p {
+	font-size: 28px;
+	text-align: left;
+}
+
 
 
 
@@ -116,7 +172,7 @@ h1 {
 }
 
 .title h2 {
-	font-size: 36px;
+	font-size: 38px;
 	text-align: center;
 	margin-bottom: 0;
 }
@@ -128,9 +184,8 @@ h1 {
 }
 
 #lessons {
-	padding-top: 30px;
-	background: #F2F2F2;
-	height: 500px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 .lessons{
@@ -148,8 +203,13 @@ h1 {
 }
 
 .lessons_item h3 {
-	font-size: 26px;
+	font-size: 30px;
 	margin-bottom: 10px;
+}
+
+.lessons_item h4 {
+	font-size: 26px;
+	margin-top: 20px;
 }
 
 .lessons_item p {
@@ -166,5 +226,15 @@ h1 {
 }
 
 .lessons_item:nth-child(2) {
-	margin-left: 135px;
+	margin-left: 95px;
+}
+
+#lessons a {
+	margin-top: 10px;
+	margin-left: 330px;
+	background: #390;
+	color: white;
+	width: 300px;
+	padding: 10px;
+	font-size: 25px;
 }
