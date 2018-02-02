@@ -33,7 +33,7 @@
 						<br>  для учеников 9-11 классов
 						<br> и абитуриентов в Москве</h1>
 					<p class="phone">+7 925 134 27 96</p>
-					<a class="zapis" href="#zapis">Записаться на <br> пробное занятие</a>
+					<a class="butt" href="#zapis">Записаться на <br> пробное занятие</a>
 				</div>
 			</div>
 		</div>
@@ -121,7 +121,7 @@
 					<p>на первое занятие</p>
 				</div>
 			</div>
-			<a id="lessons_zapis" class="zapis" href="#zapis">Записаться на занятие</a>
+			<a class="butt" href="#zapis">Записаться на занятие</a>
 		</div>
 	</section>
 
@@ -164,18 +164,25 @@
 			<div class="title">
 				<h2>Запишитесь на занятие</h2>
 				<p>Заполните данные, и я свяжусь с вами,
-				<br>чтобы назначить время занятия.</p> 
+				<br>чтобы назначить время занятия.</p>
 			</div>
-		</div>
-	</section>
+			<form action="file.php" method="TELEG" enctype="multipart/form-data"></form>
+				<div>
+					<input class="zayavka" type="text" name="Name" value="Ваше имя" maxlength="100"><br>
+					<input class="zayavka" type="text" name="Phone" value="Ваш телефон" maxlength="12"><br>
+					<input class="zayavka" type="text" name="Name" value="Цель занятий" maxlength="100"><br>
+					<input class="butt" id="send" type="submit" value="Отправить заявку">
+					<p id="policy">Нажимая кнопку, вы соглашаетесь с политикой обработки данных</p>
 
-	<section>
-		<div class="container">
+				</div>
 		</div>
 	</section>
 
 	<footer>
 		<div class="container">
+			<p>Свяжитесь со мной по телефону</p>
+			<p class="phone">+7 925 134 27 96</p>
+			<p>Маргарита</p>
 		</div>
 	</footer>
 

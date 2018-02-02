@@ -48,7 +48,7 @@ nav {
 	margin-top: 30px;
 }
 
-.zapis{
+.butt{
 	width: 250px;
 	text-align: center;
 	border: thick solid #390;
@@ -239,7 +239,7 @@ h1 {
 }
 
 #metod {
-	height: 580px;
+	height: 600px;
 	background: #F2F2F2;
 	padding-top: 20px;
 }
@@ -257,4 +257,42 @@ h1 {
 	padding-bottom: 40px;
 }
 
+.zayavka {
+	margin-top: 20px;
+	margin-left: 170px;
+	width: 580px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#send {
+	margin-top: 40px;
+	margin-left: 330px;
+	background: #390;
+	color: white;
+	width: 300px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#policy {
+	text-align: center;
+	color: #BBB;
+	font-size: 18px;
+	margin-top: 40px;
+	font-weight: 100;
+}
+
+footer {
+	height: 170px;
+	background: #F2F2F2;
+	padding-top: 15px;
+}
+
+footer p {
+	text-align: center;
+	color: #777;
+	font-size: 22px;
+	margin-top: 20px;
+}
 
