@@ -265,7 +265,7 @@ h1 {
 	font-size: 25px;
 }
 
-#send {
+.send {
 	margin-top: 40px;
 	margin-left: 330px;
 	background: #390;
