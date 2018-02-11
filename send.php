@@ -20,7 +20,7 @@ $mail->setFrom('bot_website24@mail.ru');
 $mail->addAddress('wildchild24@mail.ru');
 $mail->isHTML(true);
 
-$mail->Subject = 'Заявка с сайта Маргариты Зеленской'
+$mail->Subject = 'Заявка с сайта Маргариты Зеленской';
 $mail->Body = '' .$name . ' оставил заявку, его телефон '  .$phone. '<br>Цель занятий:' .$subj;
 $mail->AltBody = '';
 
