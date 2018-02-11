@@ -51,7 +51,7 @@ nav {
 .butt{
 	width: 250px;
 	text-align: center;
-	border: thick solid #390;
+	border: medium solid #390;
 	border-radius: 28px;
 	display: block;
 	color: #000;

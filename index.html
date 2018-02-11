@@ -166,11 +166,11 @@
 				<p>Заполните данные, и я свяжусь с вами,
 				<br>чтобы назначить время занятия.</p>
 			</div>
-			<form action="file.php" method="TELEG" enctype="multipart/form-data"></form>
+			<form action="send.php" method="POST" enctype="multipart/form-data"></form>
 				<div>
-					<input class="zayavka" type="text" name="Name" value="Ваше имя" maxlength="100"><br>
-					<input class="zayavka" type="text" name="Phone" value="Ваш телефон" maxlength="12"><br>
-					<input class="zayavka" type="text" name="Name" value="Цель занятий" maxlength="100"><br>
+					<input class="zayavka" type="text" name="user_name" placeholder="Ваше имя" maxlength="100"><br>
+					<input class="zayavka" type="text" name="user_phone" placeholder="Ваш телефон" maxlength="12"><br>
+					<input class="zayavka" type="text" name="subject" placeholder="Цель занятий" maxlength="100"><br>
 					<input class="butt" id="send" type="submit" value="Отправить заявку">
 					<p id="policy">Нажимая кнопку, вы соглашаетесь с политикой обработки данных</p>
 
