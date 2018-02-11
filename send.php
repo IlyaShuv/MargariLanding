@@ -27,6 +27,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
 	echo 'Error';
 } else {
-		header('location: thank-you.html');
+		header('alert("Спасибо за заявку! Скоро я свяжусь с вами.")');
 }
 ?>
