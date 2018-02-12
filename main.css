@@ -68,8 +68,8 @@ nav {
 
 .mainTitle {
 	margin-top: 30px;
-	margin-left: 40px;
 	float: right;
+	display: block;
 }
 
 .mainTitle p {
@@ -84,17 +84,13 @@ nav {
 	padding: 4px;
 }
 
-.mainHead {
-	float: left;
-}
-
 h1 {
 	font-size: 40px;
 	line-height: 1.5;
 }
 
 #about {
-	font-weight: 100;
+	font-weight: 300;
 	line-height: 1.7;
 	padding-top: 50px;
 	padding-bottom: 30px;
@@ -109,7 +105,8 @@ h1 {
 #about_main p {
 	margin-top: 40px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
+
 }
 
 .regal li {
@@ -164,6 +161,7 @@ h1 {
 	font-size: 28px;
 	line-height: 1.6;
 	text-align: left;
+	font-weight: 300;
 }
 
 .items li p span {
@@ -178,7 +176,8 @@ h1 {
 
 .title p {
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
+	font-weight: 300;
 	margin-top: 20px;
 }
 
@@ -212,7 +211,8 @@ h1 {
 }
 
 .lessons_item p {
-	font-size: 20px;
+	font-size: 22px;
+	font-weight: 300;
 }
 
 .lessons_item:first-child {
@@ -225,7 +225,7 @@ h1 {
 }
 
 .lessons_item:nth-child(2) {
-	margin-left: 95px;
+	margin-left: 70px;
 }
 
 #lessons a {
@@ -293,6 +293,7 @@ footer p {
 	text-align: center;
 	color: #777;
 	font-size: 22px;
+	font-weight: 300;
 	margin-top: 20px;
 }
 
