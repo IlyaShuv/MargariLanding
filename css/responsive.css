@@ -1,0 +1,203 @@
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 850px;
+	}
+
+	header {
+		height: 550px;
+	}
+
+	.photo {
+		height: 390px;
+		padding-top: 50px;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	.mainTitle p {
+		font-size: 30px;
+	}
+
+	.mainTitle a {
+		margin-left: 100px;
+	}
+
+	#types {
+		height: 520px;
+	}
+
+	.lessons_item:nth-child(2) {
+		margin-left: 30px;
+	}
+
+	#lessons a {
+		margin-left: 295px;
+	}
+
+	.items li p span {
+		margin-left: 0;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+		
+	.container {
+		width: 400px;
+		border: red thin solid;
+	}
+
+	header {
+		height: 770px;
+	}
+
+	.menu li {
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.menu li a {
+		font-size: 28px;
+	}
+
+	nav {
+		float: none;
+		margin-top: 20px;
+	}
+
+	.crop {
+		margin: 0;
+		margin-top: 10px;
+		padding: 0;
+		height: 250px;
+		overflow: hidden;
+	}
+
+	.photo {
+		padding-top: 10px;
+		float: none;
+		height: 320px;
+		padding-left: 70px;
+		margin-top: -30px;
+	}
+
+	h1 {
+		margin-top: 5px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.mainTitle {
+		float: none;
+	}
+
+	.mainTitle p {
+		margin-left: 75px;
+	}
+
+	.mainTitle a {
+		margin: 0;
+		margin-left: 65px;
+		text-align: center;
+	}
+
+	#about_main {
+		font-size: 28px;
+	}
+
+	#about_main p {
+		font-size: 22px;
+		margin-top: 10px;
+	}
+
+	.regal li {
+		margin-left: 0;
+	}
+
+	.regal li img {
+		height: 26px;
+		padding-top: 4px;
+	}
+
+	.regal li p span {
+		margin-left: 0;
+	}
+
+	#types {
+		height: 560px;
+	}
+
+	.title h2 {
+		font-size: 30px;
+	}
+
+	.title p {
+		font-size: 22px;
+	}
+
+	.items {
+		margin-top: 20px;
+	}
+
+	.items li {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.items li img {
+		height: 24px;
+	}
+
+	.items li p {
+		font-size: 25px;
+	}
+
+	.lessons_item h3 {
+		font-size: 28px;
+		margin: 0;
+	}
+
+	.lessons {
+		margin: 0;
+	}
+
+	.lessons_item {
+		float: none;
+		margin: 0;
+	}
+
+		.lessons_item:first-child {
+		margin-left: 20px;
+	}
+
+	.lessons_item:last-child {
+		float: none;
+		margin-right: 0;
+		margin-left: 20px;
+	}
+
+	.lessons_item:nth-child(2) {
+		margin-left: 20px;
+	}
+
+	#lessons a {
+		margin-left: 34px;
+	}
+ 	#metod {
+ 		height: 1000px;
+ 	}
+
+ 	.zayavka {
+ 		margin-left: 22px;
+ 		width: 330px;
+ 	}
+
+ 	.send {
+ 		margin-left: 48px;
+ 	}
+
+
+}
