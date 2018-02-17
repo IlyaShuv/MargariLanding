@@ -7,7 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
-	<script type="text/javascript" href="script.js"></script>
+	<script type="text/javascript" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="JS/scroll.js"></script>
 </head>
 <body>
 	<header>
@@ -29,7 +30,7 @@
 			</div>
 			<div class="mainHead">
 				<p class="crop">
-					<img src="img/main.jpg" alt="Фото" class="photo">
+					<img src="img/main.jpg" alt="Фото" class="photo mov">
 				</p>
 				<div class="mainTitle">
 					<h1>Репетитор 
@@ -75,7 +76,7 @@
 		<div class="container">
 			<div class="title">
 				<h2>Виды занятий</h2>
-				<ul class="items animated fadeInLeft">
+				<ul class="items mov">
 					<li>
 						<img src="img/item.png">
 						<p>Подготавиливаю к сдаче ЕГЭ</p>
@@ -134,7 +135,7 @@
 		<div class="container">
 			<div class="title">
 				<h2>Метод обучения</h2>
-				<ul class="items animated fadeInLeft">
+				<ul class="items mov">
 					<li>
 						<img src="img/item.png">
 						<p>На первом занятии мы выполним несколько базовых заданий
@@ -187,6 +188,10 @@
 			<p>Маргарита</p>
 		</div>
 	</footer>
+
+	<script type="text/javascript">
+		scrollAnimate();
+	</script>
 
 </body>
 </html>
