@@ -124,7 +124,7 @@ h1 {
 
 .regal li p {
 	text-align: left;
-	font-size: 22px;
+	font-size: 23px;
 }
 
 .regal li p span {
@@ -292,7 +292,7 @@ footer {
 
 footer p {
 	text-align: center;
-	color: #777;
+	color: #999;
 	font-size: 22px;
 	font-weight: 300;
 	margin-top: 20px;
@@ -301,6 +301,10 @@ footer p {
 .thank {
 	margin-top: 180px;
 	text-align: center;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 

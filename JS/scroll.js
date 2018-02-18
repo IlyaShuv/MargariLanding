@@ -1,10 +1,11 @@
 function scrollAnimate() {
 	$(window).scroll(function() {
 	$('.mov').each(function() {
-		var imagePos = $(this).offset().top;
+		var contentPos = $(this).offset().top;
 		var topOfWindow = $(window).scrollTop();
-		if (imagePos < topOfWindow+200) {
+		if (contentPos < topOfWindow+500) {
 			$(this).addClass('animated fadeInLeft');
+			$(this).removeClass('hidden');
 		}
 	});
 });
