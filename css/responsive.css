@@ -46,11 +46,11 @@
 		
 	.container {
 		width: 400px;
-		border: red thin solid;
 	}
 
 	header {
 		height: 770px;
+		margin-top: -20px;
 	}
 
 	.menu li {
