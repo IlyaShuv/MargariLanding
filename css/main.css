@@ -307,4 +307,11 @@ footer p {
 	visibility: hidden;
 }
 
-
+.confirm {
+	margin-top: 20px;
+	margin-left: 180px;
+	width: 580px;
+	padding: 10px;
+	font-size: 18px;
+	color: #777;
+}
