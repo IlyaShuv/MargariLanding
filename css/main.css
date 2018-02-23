@@ -276,6 +276,17 @@ h1 {
 	font-size: 25px;
 }
 
+.send:disabled {
+	margin-top: 40px;
+	margin-left: 330px;
+	background: #DDD;
+	border-color: #DDD;
+	color: white;
+	width: 300px;
+	padding: 10px;
+	font-size: 25px;
+}
+
 #policy {
 	text-align: center;
 	color: #BBB;
@@ -308,10 +319,13 @@ footer p {
 }
 
 .confirm {
+	border: #390 solid medium;
+	border-radius: 4px;
 	margin-top: 20px;
-	margin-left: 180px;
-	width: 580px;
+	margin-left: 170px;
+	width: 605px;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 19px;
 	color: #777;
+	text-align: center;
 }

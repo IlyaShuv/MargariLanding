@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic" rel="stylesheet">
 	<script type="text/javascript" src="https://yastatic.net/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="JS/scroll.js"></script>
+	<script type="text/javascript" src="JS/confirm.js"></script>
 </head>
 <body>
 	<script type="text/javascript" >
@@ -203,8 +204,11 @@
 				<input class="zayavka" type="text" name="user_name" placeholder="Ваше имя" maxlength="100" required><br>
 				<input class="zayavka" type="text" name="user_phone" placeholder="Ваш телефон" maxlength="12" required><br>
 				<input class="zayavka" type="text" name="subject" placeholder="Цель занятий" maxlength="100"><br>
-				<div class="confirm"><input type="checkbox" name="checkBox" value="yes"> Я даю своё согласие на обработку моих персональных данных<br></div>
-				<button class="butt send" type="submit">Отправить заявку</button>
+				<div class="confirm"><input type="checkbox" name="checkBox" id="agree" value="yes">
+				  Отправляя сообщение, я принимаю пользовательское
+				  <br> соглашение и подтверждаю, что ознакомлен и согласен 
+					<br>с политикой конфиденциальности данного сайта</div>
+				<button class="butt send" type="submit" id="continue">Отправить заявку</button>
 			</form>
 		</div>
 	</section>
@@ -229,6 +233,7 @@
 
 	<script type="text/javascript">
 		scrollAnimate();
+		Confirm();
 	</script>
 
 </body>
