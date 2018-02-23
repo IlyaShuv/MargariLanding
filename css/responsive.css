@@ -45,12 +45,13 @@
 @media screen and (max-width: 768px) {
 		
 	.container {
-		width: 400px;
+		width: 320px;
 	}
 
 	header {
-		height: 770px;
+		height: 830px;
 		margin-top: -20px;
+		padding-top: 10px;
 	}
 
 	.menu li {
@@ -80,13 +81,13 @@
 		padding-top: 10px;
 		float: none;
 		height: 320px;
-		padding-left: 70px;
+		padding-left: 32px;
 		margin-top: -30px;
 	}
 
 	h1 {
 		margin-top: 5px;
-		font-size: 30px;
+		font-size: 27px;
 		text-align: center;
 	}
 
@@ -95,17 +96,17 @@
 	}
 
 	.mainTitle p {
-		margin-left: 75px;
+		margin-left: 45px;
 	}
 
 	.mainTitle a {
 		margin: 0;
-		margin-left: 65px;
+		margin-left: 28px;
 		text-align: center;
 	}
 
 	#about_main {
-		font-size: 28px;
+		font-size: 26px;
 	}
 
 	#about_main p {
@@ -120,6 +121,11 @@
 	.regal li img {
 		height: 26px;
 		padding-top: 4px;
+	}
+
+	.regal li p {
+		margin-left: 0;
+		font-size: 20px;
 	}
 
 	.regal li p span {
@@ -164,12 +170,23 @@
 		margin: 0;
 	}
 
+	#lessons a {
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 20px;
+	background: #390;
+	color: white;
+	width: 224px;
+	padding: 10px;
+	font-size: 26px;
+}
+
 	.lessons_item {
 		float: none;
 		margin: 0;
 	}
 
-		.lessons_item:first-child {
+	.lessons_item:first-child {
 		margin-left: 20px;
 	}
 
@@ -187,17 +204,30 @@
 		margin-left: 34px;
 	}
  	#metod {
- 		height: 1000px;
+ 		height: 1170px;
  	}
 
  	.zayavka {
- 		margin-left: 22px;
- 		width: 330px;
+ 		margin-left: 5px;
+ 		width: 284px;
  	}
 
  	.send {
- 		margin-left: 48px;
+ 		margin-left: 8px;
  	}
 
+ 	 .send:disabled {
+ 		margin-left: 8px;
+ 	}
 
-}
+ 	.confirm {
+		border: #390 solid medium;
+		border-radius: 4px;
+		margin-top: 20px;
+		margin-left: 4px;
+		width: 312px;
+		padding: 10px;
+		font-size: 19px;
+		color: #777;
+		text-align: center;
+	}
