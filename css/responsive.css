@@ -24,22 +24,46 @@
 		margin-left: 100px;
 	}
 
+	.regal li {
+		margin-left: 30px;
+	}
+
 	#types {
 		height: 520px;
 	}
 
-	.lessons_item:nth-child(2) {
+	.lessons_item:first-child {
 		margin-left: 30px;
 	}
 
+	.lessons_item:nth-child(2) {
+		margin-left: 35px;
+	}
+
 	#lessons a {
-		margin-left: 295px;
+		margin-left: 265px;
 	}
 
 	.items li p span {
 		margin-left: 0;
 	}
 }
+
+	.zayavka {
+		margin-left: 120px;
+	}
+
+	.send {
+		margin-left: 270px;
+	}
+
+	.send:disabled {
+		margin-left: 270px;
+	}
+
+	.confirm {
+		margin-left: 120px;
+	}
 
 
 @media screen and (max-width: 768px) {
@@ -172,13 +196,7 @@
 
 	#lessons a {
 	margin-top: 10px;
-	margin-left: 0;
-	margin-right: 20px;
-	background: #390;
-	color: white;
 	width: 224px;
-	padding: 10px;
-	font-size: 26px;
 }
 
 	.lessons_item {
