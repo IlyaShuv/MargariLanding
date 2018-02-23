@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST['checkBox']) && 
-	$_POST['checkBox'] == 'Yes') {
+	$_POST['checkBox'] == 'Yes')
+	{
 		$name = $_POST['user_name'];
 		$phone = $_POST['user_phone'];
 		$subj = $_POST['subject'];
