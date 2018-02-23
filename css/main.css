@@ -217,12 +217,12 @@ h1 {
 }
 
 .lessons_item:first-child {
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .lessons_item:last-child {
 	float: right;
-	margin-right: 50px;
+	margin-right: 65px;
 }
 
 .lessons_item:nth-child(2) {
@@ -231,7 +231,7 @@ h1 {
 
 #lessons a {
 	margin-top: 10px;
-	margin-left: 330px;
+	margin-left: 315px;
 	background: #390;
 	color: white;
 	width: 300px;
