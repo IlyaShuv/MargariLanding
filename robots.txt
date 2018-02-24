@@ -1,0 +1,3 @@
+user-agent: yandex
+
+host: https://margaritazelenskaya.ru
