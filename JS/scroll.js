@@ -3,7 +3,7 @@ function scrollAnimate() {
 	$('.mov').each(function() {
 		var contentPos = $(this).offset().top;
 		var topOfWindow = $(window).scrollTop();
-		if (contentPos < topOfWindow+500) {
+		if (contentPos < topOfWindow+700) {
 			$(this).addClass('animated fadeInLeft');
 			$(this).removeClass('hidden');
 		}
