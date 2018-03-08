@@ -32,11 +32,11 @@
 		height: 520px;
 	}
 
-	.lessons_item:first-child {
+	.lessonsItem:first-child {
 		margin-left: 30px;
 	}
 
-	.lessons_item:nth-child(2) {
+	.lessonsItem:nth-child(2) {
 		margin-left: 35px;
 	}
 
@@ -48,7 +48,7 @@
 		margin-left: 0;
 	}
 
-	.zayavka {
+	.inputRequest {
 		margin-left: 120px;
 	}
 
@@ -128,11 +128,11 @@
 		text-align: center;
 	}
 
-	#about_main {
+	#aboutMain {
 		font-size: 26px;
 	}
 
-	#about_main p {
+	#aboutMain p {
 		font-size: 22px;
 		margin-top: 10px;
 	}
@@ -184,7 +184,7 @@
 		font-size: 25px;
 	}
 
-	.lessons_item h3 {
+	.lessonsItem h3 {
 		font-size: 28px;
 		margin: 0;
 	}
@@ -198,33 +198,33 @@
 	width: 224px;
 }
 
-	.lessons_item {
+	.lessonsItem {
 		float: none;
 		margin: 0;
 	}
 
-	.lessons_item:first-child {
+	.lessonsItem:first-child {
 		margin-left: 20px;
 	}
 
-	.lessons_item:last-child {
+	.lessonsItem:last-child {
 		float: none;
 		margin-right: 0;
 		margin-left: 20px;
 	}
 
-	.lessons_item:nth-child(2) {
+	.lessonsItem:nth-child(2) {
 		margin-left: 20px;
 	}
 
 	#lessons a {
 		margin-left: 34px;
 	}
- 	#metod {
+ 	#method {
  		height: 1170px;
  	}
 
- 	.zayavka {
+ 	.inputRequest {
  		margin-left: 5px;
  		width: 284px;
  	}

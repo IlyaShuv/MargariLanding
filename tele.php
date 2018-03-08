@@ -1,7 +1,7 @@
 <?php
 
-$name = $_POST['user_name'];
-$phone = $_POST['user_phone'];
+$name = $_POST['userName'];
+$phone = $_POST['userPhone'];
 $subj = $_POST['subject'];
 
 $token = "450563284:AAEEFsieIUdX3GDERECY93M-wFSXAt3ecpw";
